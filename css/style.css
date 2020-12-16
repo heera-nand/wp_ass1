@@ -1,0 +1,430 @@
+@charset "UTF-8";
+body {
+	background-color: white;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 100;
+}
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+}
+.newslettercontainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+}
+header {
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	z-index: 500;
+}
+a {
+	text-decoration: none;
+}
+nav {
+	margin-right: 60px;
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+#herobutton {
+    width: 150px;
+    margin-top: 30px;
+	margin-left: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    color: black;
+	background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: white;
+	font-size: 12px;
+	text-align: left;
+	margin-right: 30px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.hero_header {
+    color: white;
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 90px;
+    font-size: 60px;
+}
+.hero {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: black;
+}
+#services {
+    text-align: right;
+	margin-right: 90px;
+    font-size: 60px;
+    color: black;
+}
+.gallery {
+    clear: both;
+    display: inline-block;
+	text-align: center;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.serv {
+    color: black;
+}
+.thumbnail {
+	width: 14%;
+	text-align: center;
+	display: inline-block;
+}
+/* Parallax Section */
+.banner {
+	background-color: black;
+	height: 500px;
+}
+#category {
+	clear: both;
+    display: inline-block;
+	text-align: center;
+    width: 100%;
+	height: 500px;
+}
+.categories1 {
+	width: 50%;
+	height: 500px;
+	padding-top: 40px;
+	text-align: center;
+	float: left;
+	display: inline-block;
+}
+.categories2 {
+	width: 50%;
+	height: 500px;
+	padding-top: 100px;
+	text-align: center;
+	float: left;
+	display: inline-block;
+}
+.categoriesicons {
+	width: 30%;
+	text-align: center;
+	float: left;
+	display: inline-block;
+}
+.categoryp {
+	color: white;
+}
+.parallax {
+    color: white;
+    text-align: left;
+    padding-left: 90px;
+    letter-spacing: 2px;
+    font-size: 70px;
+}
+.parallax_description {
+	color: white;
+	text-align: left;
+	padding-left: 90px;
+	width: 100%;
+	float: left;
+}
+.button {
+    width: 150px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    text-align: center;
+    border: none;
+    color: black;
+	background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.button a{
+	color: black;
+}
+.wbutton {
+    width: 300px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    color: black;
+	background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.wbutton a{
+	color: black;
+}
+.footer_banner {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	text-align: center;
+	background-color: white;
+}
+.footer_banner h2 {
+	font-size: 40px;
+	color: black;
+}
+.footer_banner p {
+	font-size: 15px;
+	color: black;
+}
+#endfooterupmain {
+	clear: both;
+    display: inline-block;
+	text-align: center;
+    width: 100%;
+    background-color: black;
+}
+.endfooterupsub {
+	width: 30%;
+	background-color: black;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+.endfooter {
+	clear: both;
+    display: inline-block;
+	text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+	background-color: black;
+	color: white;
+}
+.endfootercol {
+	width: 12%;
+	padding-right: 70px;
+	padding-left: 70px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+}
+.endfootercol a {
+	text-decoration: none;
+	color: white;
+}
+.endfootercol p {
+	width: 100%;
+	font-family: "Gotham Book";
+	font-size: 12px;
+}
+#pagehead {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    color: black;
+}
+.categoriescontainer {
+	clear: both;
+    display: inline-block;
+	text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+	color: black;
+}
+.categories {
+	width: 12%;
+	height: 2380px;
+	padding-right: 60px;
+	padding-left: 60px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+}
+.categories h3 {
+	color: white;
+	font-size: 25px;
+	color: white;
+}
+.categories a {
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+.categories p {
+	width: 100%;
+	font-size: 14px;
+}
+.reviewdiv {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	display: inline-block;
+}
+.searchbox {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 50px;
+}
+.reviewdiv p {
+	font-weight: bold;
+	color: black;
+}
+.reviewdiv input {
+	width: 30%;
+	height: 60px;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.reviewdiv button {
+	vertical-align: middle;
+	height: 60px;
+	width: 60px;
+	border: none;
+	cursor: pointer;
+}
+.reviewdiv .sbutton {
+    width: 30%;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    color: white;
+	background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.logindiv {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	display: inline-block;
+}
+.logindiv form {
+	height: 400px;
+	margin-right: 350px;
+	margin-left: 350px;
+	border: 1px solid;
+	border-color: silver;
+	background-color: white;
+}
+.logindiv .newsform {
+	height: 380px;
+	margin-right: 500px;
+	margin-left: 500px;
+	border: 1px solid;
+	border-color: silver;
+	background-color: white;
+}
+.logindiv .contactform {
+	height: 700px;
+	margin-right: 350px;
+	margin-left: 350px;
+	border: 1px solid;
+	border-color: silver;
+	background-color: white;
+}
+.loginbox {
+	width: 100%;
+	padding-bottom: 50px;
+	text-align: center;
+	display: inline-block;
+}
+.logindiv .textinput {
+	width: 60%;
+	height: 60px;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	display: inline-block;
+}
+.logindiv select {
+	width: 60%;
+	height: 30px;
+	border: 1px solid silver;
+	font-size: 15px;
+}
+.logindiv textarea {
+	width: 60%;
+	height: 100px;
+	border: 1px solid silver;
+	font-size: 15px;
+}
+.logindiv hr {
+	width: 20%;
+}
+.logindiv h3 {
+	font-size:15px;
+	display: inline-block;
+}
+.logindiv p {
+	font-size:15px;
+	display: inline-block;
+}
+.logindiv .newsp {
+	font-size:20px;
+	padding-bottom: 20px;
+	color: white;
+	display: inline-block;
+}
+.logindiv a {
+	text-decoration: none;
+	color: black;
+}
+.sbutton {
+    width: 200px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    color: white;
+	background-color: black;
+    font-size: 15px;
+}
+.sbutton a{
+	color: black;
+}
